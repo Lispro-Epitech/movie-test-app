@@ -1,0 +1,115 @@
+
+.App {
+  text-align: center;
+  background-color: blue;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.img-style { 
+  height : 250px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Header-style {
+  background: #8E0E00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.grid-style {
+  background: #8E0E00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contact-body{
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  position: fixed;
+  padding-top: 12em;
+}
+
+.contact-grid {
+  margin: auto;
+  width: 80%;
+  background: white;
+  color: black;
+  text-align: center;
+  padding-top: 1em;
+  font-family: 'Oxygen Mono', monospace;
+  border-radius: 40px;
+}
+
+.contact-grid h2{
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p{
+  text-align: center;
+  padding: 2em 4em;
+}
+
+.contact-grid hr {
+  border-top: 0.8em dotted black;
+  margin: auto;
+  width: 50%;
+}
+
+.contact-list {
+  padding-top: 1em;
+}
+
+.contact-list i{
+  padding-right: 2em;
+  padding-top: 0.3em;
+}
+
+.demo-big-content {
+height: 500px;
+}
+
+.footer-style{
+  margin-top: 60px;
+  background: #8E0E00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.layout-style {
+  background-color: black;
+}
