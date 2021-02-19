@@ -29,13 +29,13 @@ function App() {
 
         </Content>
         <Footer className="footer-style" size="mini">
-    <FooterSection type="left" logo="Movie APP Test">
-        <FooterLinkList>
-            <a href="/">Help</a>
-            <a href="/">Privacy & Terms</a>
-        </FooterLinkList>
-    </FooterSection>
-</Footer>
+          <FooterSection type="left" logo="Movie APP Test">
+            <FooterLinkList>
+              <a href="/" target="_blank"> Help</a>
+              <a href="/" target="_blank">Privacy & Terms</a>
+            </FooterLinkList>
+          </FooterSection>
+        </Footer>
     </Layout>
     
 </div>
